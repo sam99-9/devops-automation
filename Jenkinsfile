@@ -25,7 +25,7 @@ pipeline {
                     sh 'docker login -u stephen0994 -p ${dockerhubpwd}'
                         
                     }
-                    sh 'docker push suresh394/kubernetes'
+                    sh 'docker push stephen0994/kubernetes'
                 }
             }
         }
